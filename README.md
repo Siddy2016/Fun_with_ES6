@@ -13,13 +13,11 @@ var checkLogin = function (email, password, allUsers)
 {
   
   var isUserFound = false 
-  
   var passwordCorrect = false 
- 
   for (currentUser in allUsers) 
   { 
-   console. log (currentUser) 
   
+  console. log (currentUser) 
    if (allUsers [currentUser] [ 'email'] == email)
     { 
   
@@ -64,6 +62,7 @@ var checkLogin = function (email, password, allUsers)
  
  function bubble_Sort (a) 
   { 
+  
     var swapp; 
     var n=a.length-1; 
     var x=a;
@@ -87,6 +86,7 @@ var checkLogin = function (email, password, allUsers)
 }
 
 while (swapp) ;
+
 return x; 
 }
 
