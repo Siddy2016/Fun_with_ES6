@@ -63,16 +63,19 @@ var checkLogin = function (email, password, allUsers)
  ii----
  
  function bubble_Sort (a) 
-{
- var swapp; 
- var n=a.length-1; 
- var x=a;
-  do{
+  { 
+    var swapp; 
+    var n=a.length-1; 
+    var x=a;
+    do{
+     
      swapp = false; 
      for (var i=O; i < n; i++)
      {
+      
       if(x[i]<x[i+1])
        {
+      
          var temp = x[i]; 
          x[i] = x[i+1]; 
          x[i+1] = temp ;
@@ -82,6 +85,7 @@ var checkLogin = function (email, password, allUsers)
      } 
      n--;
 }
+
 while (swapp) ;
 return x; 
 }
@@ -91,8 +95,7 @@ return x;
 
 
 2) Consider the following JSON dataset -
-https://s3-ap-southeast-1.amazonaws.com/edwisor-india-bucket/assignments/we
-b03/JSS1l2/bigbangtheory.json
+https://s3-ap-southeast-1.amazonaws.com/edwisor-india-bucket/assignments/web03/JSS1l2/bigbangtheory.json
 
 This dataset contains information about a popular TV show in america called Big
 Bang Theory. 
